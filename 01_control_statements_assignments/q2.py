@@ -1,8 +1,11 @@
 c=int(input("Enter The Cost Price :"))
 s=int(input("Enter The selling Price :"))
 if c == s :
-    print("cost and sale price cant be equal")
+    pass
 elif c>s :
-    print("loss in bussiness")
+    loss=c-s
+    print("loss in bussiness of rupees :",loss)
+
 else :
-    print("profit in bussiness")
+    profit=s-c
+    print("profit in bussiness of rupees :",profit)
