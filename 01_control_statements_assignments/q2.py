@@ -1,11 +1,9 @@
-c=int(input("Enter The Cost Price :"))
-s=int(input("Enter The selling Price :"))
-if c == s :
-    pass
-elif c>s :
-    loss=c-s
-    print("loss in bussiness of rupees :",loss)
-
-else :
-    profit=s-c
-    print("profit in bussiness of rupees :",profit)
+print("for find the greatest number among two numbers : -")
+a=int(input("Enter first number :"))
+b=int(input("Enter second number :"))
+if a>b :
+    print("The maximum number between ", a ," and ", b ," is: ",a )
+elif a==b :  
+    print("both numbers are equal",a)
+elif a<b :     
+    print("The maximum number between ", a ," and ", b ," is: ",b )
